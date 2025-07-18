@@ -7,7 +7,7 @@
 <p id="demo"></p>
 
 <script>
-var param1var = getQueryVariable("v");
+var param1var = (parseInt(getQueryVariable("v"))-15315)/632;
 
 document.getElementById("demo").innerHTML = "<h2>"+param1var+"</h2>";
 function getQueryVariable(variable) {
